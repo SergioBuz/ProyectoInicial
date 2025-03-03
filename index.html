@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La página más fea de la historia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="arriba">
+            Formulario con CSS selectores pseudo-clase
+        </h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <form action="miPagina" method="post">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="uno">Nombre: </label>
+                                </td>
+                                <td>
+                                    <input type="text" name="nombre" id="uno" placeholder="Escribe tu nombre" required>
+                             </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="dos">Correo electrónico: </label>
+                                </td>
+                                <td>
+                                    <input type="email" name="email" id="dos" placeholder="ejemplo@correo.com">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="tres">Teléfono: </label>
+                                </td>
+                                <td>
+                                    <input type="number" name="telefono" id="tres" placeholder="Estoy desactivado" disabled>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="cuatro">Select Opciones</label>
+                                </td>
+                                <td>
+                                    <select name="select" id="cuatro">
+                                        <option value="opcion1">Opción 1</option>
+                                        <option value="opcion2" selected>Opción 2</option>
+                                        <option value="opcion3">Opción 3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Checkbox: varias opciones</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="op1" id="op1" value="opcion1" checked>
+                                    <label for="op1">Opción 1</label>
+                                    <input type="checkbox" name="op2" id="op2" value="opcion2">
+                                    <label for="op2">Opción 2</label>
+                                    <input type="checkbox" name="op3" id="op3" value="opcion3">
+                                    <label for="op3">Opción 3</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="seis">Data List:</label>
+                                </td>
+                                <td>
+                                    <input list="datalist" id="seis" name="datalist" required>
+                                    <datalist id="datalist">
+                                        <option value="Elemento 1">
+                                        <option value="Elemento 2">
+                                        <option value="Elemento 3">
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Hipervínculos</label>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><a href="https://www.iesvenancioblanco.es/index.php">Enlace IES Venancio Blanco</a></li>
+                                        <li><a href="#arriba">Enlace Cabecera</a></li>
+                                        <li><a href="#abajo">Enlace Pie de Página</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Imagen</label>
+                                </td>
+                                <td>
+                                    <img src="img/foxTerrier.png" alt="Un perro muy majo">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="nueve">Selector de Opciones</label>
+                                </td>
+                                <td>
+                                    <select name="sect_opciones" id="nueve">
+                                        <optgroup label="Grupo 1">
+                                            <option value="op1">Opción 1</option>
+                                            <option value="op2">Opción 2</option>
+                                        </optgroup>
+                                        <optgroup label="Grupo 2">
+                                            <option value="op3">Opción 3</option>
+                                            <option value="op4">Opción 4</option>
+                                        </optgroup>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="diez">Input Radio: solo una opción</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="diez" id="diez_op1" value="op1" required>
+                                    <label for="diez_op1">Opción 1</label>
+                                    <input type="radio" name="diez" id="diez_op2" value="op2" checked>
+                                    <label for="diez_op2">Opción 2</label>
+                                    <input type="radio" name="diez" id="diez_op3" value="op3">
+                                    <label for="diez_op3">Opción 3</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Texto</td>
+                                <td colspan="2">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laboriosam, iure vero vel iste sunt voluptas molestias quam molestiae, harum veritatis officiis, temporibus ut in beatae quidem saepe sint natus!</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button type="submit">Enviar</button>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <!-- <p id="sub-p">
+                        Dale al botón
+                    </p> -->
+                  <div class="outer">
+                      <div class="popup">
+                          <i class="far fa-check-circle"></i>
+                          <h2>Ahora somos novios</h2>
+                          <br/>
+                          <button id="closebtn">Cerrar</button>
+                      </div>
+                      <button id="showbtn">Pulsa</button>
+                  </div>
+                  <br />
+                  <script src="javascript/mijava.js"></script>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="abajo">
+            Curso de primero de Desarrollo Multiplataforma 2025
+        </p>
+    </footer>
+</body>
+</html>
