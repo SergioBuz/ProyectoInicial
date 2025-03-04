@@ -2,7 +2,7 @@ README DE SERGIO BUZ EGIDO
 
 PREPARACIÓN
  - Se han creado los repositorios inciales vacios para poder modicarlos.
-  + mkdir ProyectoInicial 
+  (mkdir ProyectoInicial)
   * mkdir css 
   * mkdir javascript 
   * touch css/style.css 
