@@ -38,3 +38,7 @@ Si preferimos hacerlo en Git, debemos seguir los siguientes pasos:
 - Cambiar a la rama del pull request: _git checkout Luis_
 - Hacer un merge con el main: _git merge main_
 - Hacer un push de los cambios: _git push -u origin Luis_
+
+En caso de haber conflictos, tanto GitHub como Git nos avisarán y mostrarán las múltiples opciones para resolverlo.
+En el caso de Git, las opciones del merge se visualizarán mediante nuestro IDE por defecto (VS Code).
+Si todo ha ido bien, se realizarán los cambios y los cambios de nuestra rama se aplicarán al main.
