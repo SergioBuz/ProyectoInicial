@@ -7,16 +7,16 @@ El html es de un ejemplo de formulario.
 ## Inicio del proyecto
 
   Para comenzar hubo que descargarse el proyecto inicial para poder empezar a trabajar en él.
-    - `git clone URL ` 
-    - Crear una rama  -> `git branch Anais`  // `git checkout -b Anais` (crea la rama y cambia automaticamente a ella)
-    - Cambiar a la rama  -> `git checkout Anais`
-    - Mostrar las ramas remotas  -> `git checkout -r`
+- `git clone URL ` 
+- Crear una rama  -> `git branch Anais`  // `git checkout -b Anais` (crea la rama y cambia automaticamente a ella)
+- Cambiar a la rama  -> `git checkout Anais`
+- Mostrar las ramas remotas  -> `git checkout -r`
 
   Desde ahi trabajar en las modificaciones del html y subirlas al repositorio
-    - `git add .`
-    - `git commit`
-    - Fusionar mi rama al repositorio  -> `git merge origin/Anais`
-    - Subir los cambios agitHub  -> `git push`
+- `git add .`
+- `git commit`
+- Fusionar mi rama al repositorio  -> `git merge origin/Anais`
+- Subir los cambios agitHub  -> `git push`
 
 ## Gestion y solución de conflictos
     Al modificar archivos ya sean propios o de un compañero si se hace en local habrá que revisar los cambios para comprobar 
