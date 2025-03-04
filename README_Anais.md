@@ -5,6 +5,7 @@ En esta prueba se trabajó en una rama que despues se fusionó,
 El html es de un ejemplo de formulario.
 
 ## Inicio del proyecto
+
   Para comenzar hubo que descargarse el proyecto inicial para poder empezar a trabajar en él.
     - `git clone URL ` 
     - Crear una rama  -> `git branch Anais`  // `git checkout -b Anais` (crea la rama y cambia automaticamente a ella)
@@ -23,13 +24,13 @@ El html es de un ejemplo de formulario.
     request se puede añadir un mensaje facilitando a los compañeros la revision de los cambios realizados.
 
     A la hora de revisar los pull request aparecen las siguientes opciones 
-      ### Create a merge commit     
+    - Create a merge commit     
         Fusiona la rama con un commit extra que registra la unión de ambas.
         Mantiene el historial de commits de la rama fusionada.
         Uso: Si qse queire un historial detallado y ver exactamente qué commits se hicieron antes de la fusión.
             - `git merge Anais`
             
-      ### Squash and merge
+    - Squash and merge
         Qué hace:
         Une todos los commits de la rama en uno solo antes de fusionarlo.
         No mantiene el historial de commits individuales, solo deja un único commit con todos los cambios.
@@ -37,7 +38,7 @@ El html es de un ejemplo de formulario.
           - `git merge --Anais`
           - `git commit -m "Descripcion"`
           
-      ### Rebase and merge
+  - Rebase and merge
       Mueve los commits de la rama a la punta de la rama destino, como si hubieran sido hechos directamente ahí.
       No crea un commit de merge, mantiene el historial lineal.
       Uso:   Si quieres un historial más limpio sin commits de merge.
