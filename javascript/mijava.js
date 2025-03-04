@@ -21,4 +21,7 @@ closebtn.addEventListener("click", () => {
     popup.style.display = "none";
     showbtn.style.display = "block";
     // document.body.style.backgroundColor = "#09dbd450";
+    subp.style.display = "none";
+
+});
 });
