@@ -1,28 +1,28 @@
 README DE SERGIO BUZ EGIDO
 
 PREPARACIÓN
-Se han creado los repositorios inciales vacios para poder modicarlos.
-  _mkdir ProyectoInicial_
-  _mkdir css_
-  _mkdir javascript_
-  _touch css/style.css_
+  - Se han creado los repositorios inciales vacios para poder modicarlos.
+  _mkdir ProyectoInicial_ |
+  _mkdir css_ |
+  _mkdir javascript_ 7890 |
+  _touch css/style.css_ |
   _touch javascript/miijava.js_ 
  - Realizado un commit
-  _git innit ._
-  _git commit -am "Rama principal"_
+  _git innit ._ |
+  _git commit -am "Rama principal"_ |
  - Creados los repositorios remotos den Github y subido el proyecto completo
-  _git remote add origin *enlace*_ 
-  _git branch -M main_ 
-  _git push -u origin main_ 
+  _git remote add origin *enlace*_ |
+  _git branch -M main_ |
+  _git push -u origin main_ |
 
 
 TRABAJO COLABORATIVO
  - Añadidos los colaboradores (Luis y Anais) a traves de settings/collaboratos
  - Creada una rama con mi nombre
-  _git branch Sergio_ 
+  _git branch Sergio_ |
  - Se ha añadido el CSS al documento mediante VSC
  - Subidos a mi rama los cambios realizados
-  _git commit -am "Rama Sergio, Añadido el css"_ 
+  _git commit -am "Rama Sergio, Añadido el css"_ |
   _git push_ 
 
 INTEGRACIÓN DEL PROYECTO
