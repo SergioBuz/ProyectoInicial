@@ -1,8 +1,8 @@
 README DE SERGIO BUZ EGIDO
 
 PREPARACIÓN
- - Se han creado los repositorios inciales vacios para poder modicarlos.
-  (mkdir ProyectoInicial)
+Se han creado los repositorios inciales vacios para poder modicarlos.
+  _mkdir ProyectoInicial_
   _mkdir css_
   _mkdir javascript_
   _touch css/style.css_
