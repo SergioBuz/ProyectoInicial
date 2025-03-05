@@ -1,35 +1,70 @@
-README DE SERGIO BUZ EGIDO
+# README - Sergio Buz Egido
 
-PREPARACIÓN
-  - Se han creado los repositorios inciales vacios para poder modicarlos.
-  _mkdir ProyectoInicial_ |
-  _mkdir css_ |
-  _mkdir javascript_ 7890 |
-  _touch css/style.css_ |
-  _touch javascript/miijava.js_ 
- - Realizado un commit
-  _git innit ._ |
-  _git commit -am "Rama principal"_ |
- - Creados los repositorios remotos den Github y subido el proyecto completo
-  _git remote add origin *enlace*_ |
-  _git branch -M main_ |
-  _git push -u origin main_ |
+## 📌 Preparación
 
+1. Se han creado los repositorios iniciales vacíos para poder modificarlos:
+   ```sh
+   mkdir ProyectoInicial
+   mkdir css
+   mkdir javascript
+   touch css/style.css
+   touch javascript/miijava.js
+   ```
+2. Realizado un commit inicial:
+   ```sh
+   git init
+   git commit -am "Rama principal"
+   ```
+3. Creación y subida del repositorio remoto en GitHub:
+   ```sh
+   git remote add origin <enlace>
+   git branch -M main
+   git push -u origin main
+   ```
 
-TRABAJO COLABORATIVO
- - Añadidos los colaboradores (Luis y Anais) a traves de settings/collaboratos
- - Creada una rama con mi nombre
-  _git branch Sergio_ |
- - Se ha añadido el CSS al documento mediante VSC
- - Subidos a mi rama los cambios realizados
-  _git commit -am "Rama Sergio, Añadido el css"_ |
-  _git push_ 
+---
 
-INTEGRACIÓN DEL PROYECTO
- - Realizado un pull request desde GitHub
- - Fusión de rama Sergio a rama Main
-  _git merge Sergio_ 
+## 🤝 Trabajo Colaborativo
 
-CONFLICTOS
- - Ya que mi rama ha sido la última en subirse, el archivo css estaba modificado ya con los cambios de Luis, por tanto, he tenido que hacer un merge manual, escogiendo con que quedarme y que borrar.
- - Al hacer el merge de mi rama al main se han borrado los readme de Luis y Anais. Me ha costado dios y ayuda que no se borraran pero al final revirtiendo el cambio con "git reset --hard 583e6d8" y subiendo los archivos de nuevo con "git push --set-upstream origin main --force" logré volver al Main con sus readme. Para fusionar mi rama sin borrar sus archivos hice una copia de sus readme en mi rama para que al hacer el merge, los README de main tuvieran un archivo sobre el cual volcarse y no se borraran
+1. Se han añadido los colaboradores (Luis y Anais) a través de:
+   - *Settings > Collaborators*
+2. Creación de una nueva rama con mi nombre:
+   ```sh
+   git branch Sergio
+   ```
+3. Se ha añadido el CSS al proyecto mediante Visual Studio Code.
+4. Subida de los cambios a mi rama:
+   ```sh
+   git commit -am "Rama Sergio, Añadido el CSS"
+   git push
+   ```
+
+---
+
+## 🔄 Integración del Proyecto
+
+1. Se ha realizado un *Pull Request* desde GitHub.
+2. Fusión de la rama `Sergio` a la rama `main`:
+   ```sh
+   git merge Sergio
+   ```
+
+---
+
+## ⚠️ Resolución de Conflictos
+
+- Al ser mi rama la última en subirse, el archivo `style.css` ya había sido modificado por Luis, lo que generó un conflicto.
+- Se realizó un *merge* manual, escogiendo qué cambios conservar y cuáles descartar.
+- Al hacer el merge, los README de Luis y Anais fueron eliminados accidentalmente.
+- Para solucionar este problema:
+  1. Se revirtió el cambio con:
+     ```sh
+     git reset --hard 583e6d8
+     ```
+  2. Se subieron nuevamente los archivos con:
+     ```sh
+     git push --set-upstream origin main --force
+     ```
+  3. Para evitar la eliminación de los README de mis compañeros, hice una copia de sus archivos en mi rama antes de hacer el *merge*, asegurando que existieran en `main` durante la fusión.
+
+---
