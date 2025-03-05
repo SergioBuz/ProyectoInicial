@@ -24,4 +24,3 @@ closebtn.addEventListener("click", () => {
     subp.style.display = "none";
 
 });
-});
